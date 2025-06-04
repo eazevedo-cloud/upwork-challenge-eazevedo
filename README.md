@@ -21,7 +21,7 @@ This tool is designed for automation, bulk operations, and interactive managemen
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/yourusername/bitbucket_cli.git
+git clone https://github.com/eazevedo-cloud/upwork-challenge-eazevedo.git
 cd bitbucket_cli
 ```
 
