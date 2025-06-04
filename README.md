@@ -25,9 +25,11 @@ git clone https://github.com/eazevedo-cloud/upwork-challenge-eazevedo.git
 cd bitbucket_cli
 ```
 
-### 2\. Install dependencies
+### 2\. Create a VirtualEnv and Install dependencies
 
 ```plaintext
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
