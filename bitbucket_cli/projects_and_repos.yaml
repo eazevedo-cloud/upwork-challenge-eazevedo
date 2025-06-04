@@ -1,0 +1,14 @@
+# This file contains the configuration for Bitbucket projects and repositories.
+# It includes project keys, names, descriptions, and repository details.
+
+projects:
+  - key: PROJ1
+    name: Project 1
+    description: "Project 1 - Created by bulk process"
+    repositories:
+      - slug: web
+        is_private: true
+        branches: main;dev;uat;qa
+      - slug: mobile
+        is_private: true
+        branches: "main;dev"
