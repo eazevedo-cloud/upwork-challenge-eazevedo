@@ -217,6 +217,41 @@ python -m unittest discover tests
 
 ---
 
+## 🛣️ Roadmap
+
+There are some improvements and future enhancements for the Bitbucket CLI:
+
+1.  **Error Handling Enhancements**
+    *   Implement more robust error handling mechanisms, including retries for transient errors and detailed logging for failures.
+2.  **OAuth Implementation**
+    *   Fully implement OAuth for better security and flexibility in authentication, including refreshing tokens automatically.
+3.  **Improved CLI User Interface**
+    *   Enhance the CLI interface with better prompts, clearer error messages, and support for command-line arguments using libraries like `argparse` or `click`.
+4.  **Configuration Management**
+    *   Introduce centralized configuration management to handle environment variables more efficiently and support multiple environments (e.g., development, staging, production).
+5.  **Expanded Testing**
+    *   Increase the test coverage by adding edge case scenarios and integration tests to simulate real-world API interactions.
+6.  **Logging and Monitoring**
+    *   Integrate a logging framework to capture detailed logs for debugging and monitoring.
+    *   Add monitoring for API usage and performance metrics.
+7.  **Security Enhancements**
+    *   Ensure sensitive data is never logged or exposed in error messages.
+    *   Validate all user inputs to prevent injection attacks or malformed requests.
+8.  **Scalability Improvements**
+    *   Refactor the codebase to support asynchronous operations for better performance with large datasets or high API call volumes.
+    *   Optimize API call patterns to minimize latency and reduce redundant requests.
+9.  **Bulk Operations Improvements**
+    *   Add validation for YAML files to ensure proper structure before processing.
+    *   Provide detailed error reports for bulk operations, indicating which items succeeded and which failed.
+10.  **Real-Time Feedback**  
+    \* Provide real-time progress updates for long-running operations, such as bulk actions.
+
+---
+
+These improvements aim to make the Bitbucket CLI more robust, user-friendly, and scalable while ensuring it meets the evolving needs of its users.
+
+---
+
 ## 🤝 Contributing
 
 Pull requests and issues are welcome!  
