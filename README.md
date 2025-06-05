@@ -208,6 +208,10 @@ Run them with:
 python -m unittest discover tests
 ```
 
+Expected result:
+
+![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/4b8bd44c9ec82961e2b0e0aa8f5c45b07d849eca5c7bbb2e.png)
+
 ---
 
 ## 🛡️ Security
